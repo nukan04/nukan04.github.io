@@ -1,33 +1,48 @@
 
-.nav-bar{
+.nav-bar {
     height: 120px;
-   // background: black;
+/ / background: black;
 }
-.vertical-center{
+
+.vertical-center {
     height: 7em;
-    position: relative;      /* 1 */
+    position: relative; /* 1 */
 }
-#red{
+.vertical-center2 {
+    left: 4rem;
+    height: 20em;
+    position: relative; /* 1 */
+}
+.red {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+
     color: #D22020;
     margin: 0;
     position: absolute;
     top: 40%;
     transform: translate(0, -50%)
 }
-#grey{
+
+.grey {
     color: #444444;
     margin: 0;
     position: absolute;
     top: 72%;
     transform: translate(0, -50%)
 }
-#number{
+
+.number {
     margin-left: 40%;
     position: absolute;
     top: 55%;
     transform: translate(0, -50%);
     color: #000000;
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 1.7em;
@@ -35,20 +50,24 @@
     letter-spacing: 0.05em;
 
 }
-#burger{
+
+#burger {
     position: absolute;
     top: 55%;
-    right:0px;
+    right: 0px;
     transform: translate(0, -50%)
 }
-.back{
+
+
+.back {
     position: absolute;
     width: 100%;
     left: 0px;
     top: 7em;
     z-index: -1;
 }
-#offer{
+
+#offer {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 900;
@@ -58,7 +77,8 @@
     margin-top: 200%;
     color: #FFFFFF;
 }
-#sub-offer{
+
+#sub-offer {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -68,7 +88,8 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
 }
-.button{
+
+.button {
     margin-top: 2.5rem;
     padding-top: 3rem;
     background: #F85555;
@@ -77,7 +98,19 @@
     width: 35rem;
     height: 8rem;
 }
-#b1Text{
+.button2 {
+    display: inline-block;
+    margin-left: 2rem;
+    padding-top: 1.5rem;
+    background: #F85555;
+    box-shadow: 0 2px 30px rgba(248, 85, 85, 0.7);
+    border-radius: 2em;
+    width: 16rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+#b1Text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -87,4 +120,187 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
 }
+#b2Text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+#priceBlack{
+    display: inline-block;
+    float: right;
+    margin-right: 4rem;
+    padding-top: 0.75rem;
 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 1em;
+    color: #282828;
+}
+
+#empty {
+    height: 25rem;
+    display: block;
+}
+
+
+#SecondPage {
+    display: block;
+}
+#Tcotolog {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.block {
+    margin-top: 6rem;
+    background: #FFFFFF;
+    box-shadow: 5px 8px 30px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+#imgU1 {
+    width: 40rem;
+    display: block;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px/65px;
+}
+
+.Next {
+    margin-top: 2rem;
+    display: inline-block;
+    width: 2rem;
+    opacity: 0.65;
+}
+
+#NextLeft {
+    margin-left: 14rem;
+    transform: rotate(180deg);
+}
+#NextLeft2 {
+    margin-left: 14rem;
+    transform: rotate(180deg);
+}
+
+.circle2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
+    width: 1.5rem;
+    opacity: 0.65;
+}
+
+.inline {
+    display: inline-block;
+}
+.UkuDescribeBlock{
+    padding-left: 2rem;
+    padding-top: 4rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1em;
+    padding-bottom: 1rem;
+    color: #000000;
+}
+#ThirdPage{
+    margin-top: 6rem;
+}
+.HeadingFront{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.95em;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    color: #000000;
+      margin-bottom: 10rem;
+}
+.ThirdNumbers{
+    display: inline-block;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 8rem;
+}
+.Facts{
+    display: inline-block;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+.Feedback{
+    position: absolute;
+    top: 330rem;
+    right: 8rem;
+    width: 46rem;
+}
+.scroll2{
+    position: absolute;
+    top:398rem;
+    right: 22rem;
+    z-index: 1;
+}
+#white{
+    margin-top: -4rem;
+    color: #FFFFFF;
+}
+.Footer{
+    position: absolute;
+    top:410rem;
+    height: 18rem;
+    width: 100%;
+    left: 0rem;
+    background: #3D3D3D;
+}
+.block2{
+    margin-top: 2rem;
+    margin-right: 4rem;
+    float: right;
+    width: 27rem;
+}
+.FooterInfo{
+    padding-right: 1rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+.FooterLaw{
+    margin-top: 4rem;
+    float: right;
+    margin-right: 2rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
